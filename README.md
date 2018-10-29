@@ -1,8 +1,8 @@
-#Tic Tac Toe 2.0
+# Tic Tac Toe 2.0
 
-##Getting started
+## Getting started
 
-###Overview
+### Overview
 
 An enhanced version of tic-tac-toe game developed in Java. This is a console game. The features added to this version of the game are:
 - Board size could be between 3x3 and 10x10
@@ -10,7 +10,7 @@ An enhanced version of tic-tac-toe game developed in Java. This is a console gam
 - The symbols for each player are configurable 
 - Random turns
 
-###How to play
+### How to play
 
 When the game starts you'll see the game configuration and empty board:
 
@@ -101,15 +101,15 @@ GOOD BYE!!!
 ````
 
 
-##Deployment
+## Deployment
 
-###Building
+### Building
 
 ````
 gradle build
 ````
 
-###Configuration
+### Configuration
 
 Configuration of playground size and players' marks could be done on a .properties file.  This file should be in classpath, the configuration file must have the following format:
 
@@ -137,7 +137,7 @@ Configuration file doesn't contain a valid playground.size between 3-10.
 Configuration file doesn't contain 'player.mark.2'
 ````
 
-###Running
+### Running
 
 For using default configuration, `playground=4` and `player.marks=O,X,A`
 
@@ -151,9 +151,9 @@ If you want to use a custom configuration:
 java -jar tic-tac-toe-2.0-SNAPSHOT.jar "file-name.properties"
 ````
 
-###Dependencies
+### Dependencies
 None
 
-##Authors
+## Authors
 
-- Dirgni Yordania Mayen Sanabria
+- Dirgni Yordania Mayen Sanabria (@dyms11)
